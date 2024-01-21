@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:sans-serif;
+}
+main{
+    margin: 50px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    gap: .25em;
+
+}
+.container {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+#leaderBoardList {
+    width: 70%;
+    background-color:  #14bf98;
+}
+.liItems {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #113448;
+}
+.divName, .divCountry, .divScore{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 100px;
+    width: 80px;
+}
+
+.increaseBtn, .decreaseBtn {
+    color: #3b93a9;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 100px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
